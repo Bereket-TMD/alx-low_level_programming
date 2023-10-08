@@ -3,8 +3,9 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
- * main - this is the main function
- * return : always 0
+ * main - determines if a number is positive, negarive or zero.
+ *
+ * Return: Always 0 (success)
  */
 /* betty style doc for function main goes there */
 int main(void)
@@ -19,6 +20,6 @@ int main(void)
 				else if (n < 0)
 				printf("%d is negative\n", n);
 				else
-				printf("%d is zero", n);
+				printf("%d is zero"\n, n);
 				return (0);
 }
